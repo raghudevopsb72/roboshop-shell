@@ -1,3 +1,6 @@
+script_path=$(dirname $0)
+source ${script_path}/common.sh
+
 echo -e "\e[36m>>>>>>>>> Setup ErLang Repos <<<<<<<<\e[0m"
 curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | bash
 
