@@ -1,6 +1,6 @@
 source common.sh
 
-pwd
+basedir
 exit
 
 echo -e "\e[36m>>>>>>>>> Configuring NodeJS repos <<<<<<<<\e[0m"
