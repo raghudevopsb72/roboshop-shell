@@ -19,7 +19,7 @@ echo -e "\e[36m>>>>>>>>> Install Dependencies <<<<<<<<\e[0m"
 pip3.6 install -r requirements.txt
 
 echo -e "\e[36m>>>>>>>>>Setup SystemD Service <<<<<<<<\e[0m"
-cp /home/roboshop/roboshop-shell/payment.service /etc/systemd/system/payment.service
+cp /home/centos/roboshop-shell/payment.service /etc/systemd/system/payment.service
 
 echo -e "\e[36m>>>>>>>>> Start Payment Service <<<<<<<<\e[0m"
 systemctl daemon-reload
