@@ -1,4 +1,3 @@
-script_path=$(dirname $0)
 source ${script_path}/common.sh
 
 echo -e "\e[36m>>>>>>>>> Configuring NodeJS repos <<<<<<<<\e[0m"
